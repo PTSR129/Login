@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/signIn"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/signIn_id"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:hint="@string/id_and_email" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signIn_idCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/black"
+            android:text="@string/check"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/signIn_pw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/pw" />
+
+    <EditText
+        android:id="@+id/signIn_pwCheck"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/checkPw" />
+
+    <EditText
+        android:id="@+id/signIn_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/signIn_Name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/signIn_phone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:hint="@string/signIn_phone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signIn_phoneCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/black"
+            android:text="@string/signIn_PhoneCheck"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signIn_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:text="@string/signIn"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

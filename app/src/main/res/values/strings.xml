@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="start">시작하기</string>
+    <string name="btn_login">로그인</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="signIn">회원가입</string>
+    <string name="today_menu">오늘의 메뉴</string>
+    <string name="breakfast">아침</string>
+    <string name="lunch">점심</string>
+    <string name="dinner">저녁</string>
+    <string name="menu">마파두부밥/쌀곰탕/두부밥/오징어간장볶음/멸치아몬드볶음/배추겉절이/모듬과일</string>
+    <string name="time_table">오늘 수업시간표</string>
+    <string name="Mon">월</string>
+    <string name="Thu">화</string>
+    <string name="Wed">수</string>
+    <string name="Thr">목</string>
+    <string name="Fri">금</string>
+    <string name="Math">미적</string>
+    <string name="BigData">빅데</string>
+    <string name="English">영어</string>
+    <string name="Post">고전</string>
+    <string name="PlayOrPlay">동아리</string>
+    <string name="id_and_email">아이디(이메일주소)</string>
+    <string name="check">중복확인</string>
+    <string name="checkPw">비밀번호 확인</string>
+    <string name="signIn_Name">이름(실명입력)</string>
+    <string name="signIn_phone">휴대전화번호(-)제외</string>
+    <string name="signIn_PhoneCheck">인증번호 전송</string>
+</resources>
